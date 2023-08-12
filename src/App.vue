@@ -48,7 +48,7 @@
       </div>
     </form>
 
-    <p data-success="success" v-if="isSubmit" class="text-green-800">**{{ userEmail }} successfully subscribed the newsletter.</p>
+    <p data-success="success" v-if="isSubmit" class="text-green-800">{{ userEmail }} successfully subscribed the newsletter.</p>
     <p data-errorMsg="errorMsg" v-if="showErrorMsg" class="text-red-800">**All fields are required.</p>
   </section>
 </template>
