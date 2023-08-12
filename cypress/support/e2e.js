@@ -16,5 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+// Put your URL here below..
+export const URL = "http://localhost:5173/";
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
